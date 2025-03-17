@@ -8,8 +8,8 @@ const __dirname = getDirname(import.meta.url)
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: 'Appwrite DevKit',
-  description: 'Vue-powered Static Site Generator',
+  title: 'Vuepress Docs Boilerplate',
+  description: 'Your Ultimate Documentation Starter',
 
   theme: customTheme({
     logo: '/images/appwrite-light.svg',
