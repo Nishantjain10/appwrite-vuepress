@@ -41,7 +41,7 @@ html.dark {
   border: 1px solid var(--c-brand) !important;
   padding: 0.8rem 1.6rem;
   border-radius: 4px;
-  transition: background-color 0.1s ease;
+  transition: all 0.2s ease;
   box-sizing: border-box;
   
   &:hover {
@@ -54,10 +54,13 @@ html.dark {
   &.secondary {
     color: var(--c-brand) !important;
     background-color: transparent !important;
+    border-color: var(--c-brand) !important;
     
     &:hover {
-      color: #ffffff !important;
-      background-color: var(--c-brand) !important;
+      color: var(--c-brand) !important;
+      background-color: var(--c-bg-light) !important;
+      border-color: var(--c-brand) !important;
+      text-decoration: none !important;
     }
   }
 }
