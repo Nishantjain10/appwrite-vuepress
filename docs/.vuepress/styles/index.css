@@ -2,12 +2,18 @@
  * Custom styles
  */
 
+/* Hide site title in navbar */
+.navbar .site-name {
+  display: none !important;
+}
+
+/* Brand colors */
 :root {
   --c-brand: #FD366E;
   --c-brand-light: #ff4d80;
 }
 
-/* Homepage hero buttons */
+/* Button styles */
 .home .hero .action-button {
   display: inline-block;
   color: var(--c-bg) !important;
