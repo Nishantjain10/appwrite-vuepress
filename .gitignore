@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Production
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
+docs/.vuepress/dist/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history/
+
+# System Files
+.DS_Store
+Thumbs.db 
