@@ -7,9 +7,15 @@ const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   lang: 'en-US',
-
-  title: 'Vuepress Docs Boilerplate',
+  title: '',
   description: 'Your Ultimate Documentation Starter',
+
+  // Override title in navbar
+  locales: {
+    '/': {
+      title: '',
+    },
+  },
 
   theme: customTheme({
     logo: '/images/appwrite-light.svg',
