@@ -1,0 +1,25 @@
+:root {
+  /* brand colors */
+  --c-brand: #FD366E;
+  --c-brand-light: #ff4d80;
+
+  /* background colors */
+  --c-bg: #ffffff;
+  --c-bg-light: #EDEDF0;
+  --c-bg-dark: #19191D;
+
+  /* text colors */
+  --c-text: #19191D;
+  --c-text-light: #3a3a3f;
+  --c-text-lighter: #4e4e54;
+  
+  /* border colors */
+  --c-border: #EDEDF0;
+  --c-border-dark: #dcdce0;
+
+  /* layout */
+  --navbar-height: 3.6rem;
+  --sidebar-width: 20rem;
+  --content-width: 740px;
+  --homepage-width: 960px;
+} 
