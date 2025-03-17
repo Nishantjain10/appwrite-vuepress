@@ -1,3 +1,7 @@
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+
 :root {
   /* brand colors */
   --c-brand: #FD366E;
@@ -5,21 +9,55 @@
 
   /* background colors */
   --c-bg: #ffffff;
-  --c-bg-light: #EDEDF0;
+  --c-bg-light: #f3f4f5;
+  --c-bg-lighter: #eeeeee;
   --c-bg-dark: #19191D;
+  --c-bg-darker: #252529;
 
   /* text colors */
   --c-text: #19191D;
   --c-text-light: #3a3a3f;
   --c-text-lighter: #4e4e54;
+  --c-text-lightest: #6a6a6f;
   
   /* border colors */
   --c-border: #EDEDF0;
   --c-border-dark: #dcdce0;
 
+  /* custom container colors */
+  --c-tip: #FD366E;
+  --c-warning: #e7c000;
+  --c-warning-bg: #fffae3;
+  --c-warning-title: #ad9000;
+  --c-warning-text: #746000;
+  --c-danger: #cc0000;
+  --c-danger-bg: #ffe0e0;
+  --c-danger-title: #990000;
+  --c-danger-text: #660000;
+  --c-details-bg: #eeeeee;
+
   /* layout */
   --navbar-height: 3.6rem;
+  --navbar-padding-v: 0.7rem;
+  --navbar-padding-h: 1.5rem;
   --sidebar-width: 20rem;
+  --sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
   --content-width: 740px;
   --homepage-width: 960px;
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: var(--vp-c-brand-light);
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--vp-c-brand);
+  --vp-button-brand-hover-border: var(--vp-c-brand-light);
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
+  --vp-button-brand-active-border: var(--vp-c-brand-light);
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: var(--vp-button-brand-bg);
 } 
