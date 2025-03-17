@@ -4,30 +4,18 @@ title: Home
 heroImage: https://vuejs.press/images/hero.png
 actions:
   - text: Get Started
-    link: /getting-started.html
+    link: /get-started.html
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
-    type: secondary
-
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
+  - title: Feature Rich
+    details: Out-of-the-box support for essential documentation features
   - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
+    details: Enjoy the dev experience of Vue 3 with interactive components
   - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+    details: VuePress generates pre-rendered static HTML for fast initial load
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: MIT Licensed | Copyright © 2024-present
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
-
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+This is the content of home page. Check [Home Page Docs](https://vuejs.press/guide/page.html#frontmatter) for more details.
