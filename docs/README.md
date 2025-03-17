@@ -1,7 +1,9 @@
 ---
 home: true
-title: Home
+title: Vuepress Docs Boilerplate
+heroText: Vuepress Docs Boilerplate
 heroImage: https://vuejs.press/images/hero.png
+tagline: Your Ultimate Documentation Starter
 actions:
   - text: Get Started
     link: /get-started.html
