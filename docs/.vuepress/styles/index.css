@@ -1,0 +1,36 @@
+/**
+ * Custom styles
+ */
+
+:root {
+  --c-brand: #FD366E;
+  --c-brand-light: #ff4d80;
+}
+
+/* Homepage hero buttons */
+.home .hero .action-button {
+  display: inline-block;
+  color: var(--c-bg) !important;
+  background-color: var(--c-brand) !important;
+  border: 1px solid var(--c-brand) !important;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.home .hero .action-button:hover {
+  background-color: var(--c-brand-light) !important;
+  border-color: var(--c-brand-light) !important;
+}
+
+.home .hero .action-button.secondary {
+  color: var(--c-brand) !important;
+  background-color: var(--c-bg) !important;
+  border: 1px solid var(--c-brand) !important;
+}
+
+.home .hero .action-button.secondary:hover {
+  color: var(--c-brand) !important;
+  background-color: var(--c-bg-light) !important;
+} 
