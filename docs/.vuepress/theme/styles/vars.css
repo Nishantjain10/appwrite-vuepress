@@ -1,0 +1,77 @@
+:root {
+  /* brand colors */
+  --c-brand: #FD366E;
+  --c-brand-light: #ff4d80;
+
+  /* background colors */
+  --c-bg: #ffffff;
+  --c-bg-light: #EDEDF0;
+  --c-bg-dark: #19191D;
+
+  /* text colors */
+  --c-text: #19191D;
+  --c-text-light: #3a3a3f;
+  --c-text-lighter: #4e4e54;
+  
+  /* border colors */
+  --c-border: #EDEDF0;
+  --c-border-dark: #dcdce0;
+
+  /* custom container colors */
+  --c-tip: #FD366E;
+  --c-warning: #e7c000;
+  --c-warning-bg: #fffae3;
+  --c-warning-title: #ad9000;
+  --c-warning-text: #746000;
+  --c-danger: #cc0000;
+  --c-danger-bg: #ffe0e0;
+  --c-danger-title: #990000;
+  --c-danger-text: #660000;
+  --c-details-bg: #eeeeee;
+
+  /* button colors */
+  --c-btn: #ffffff;
+  --c-btn-bg: #FD366E;
+  --c-btn-border: #FD366E;
+  --c-btn-hover: #ffffff;
+  --c-btn-hover-bg: #ff4d80;
+  --c-btn-hover-border: #ff4d80;
+  --c-btn-active: #ffffff;
+  --c-btn-active-border: #FD366E;
+  --c-btn-active-bg: #FD366E;
+}
+
+html.dark {
+  --c-bg: #19191D;
+  --c-bg-light: #252529;
+  --c-bg-lighter: #313136;
+
+  --c-text: #EDEDF0;
+  --c-text-light: #dcdce0;
+  --c-text-lighter: #bcbcc0;
+
+  --c-border: #3a3a3f;
+  --c-border-dark: #4e4e54;
+
+  --c-tip: #FD366E;
+  --c-warning: #e7c000;
+  --c-warning-bg: #2d2c00;
+  --c-warning-title: #ffcf33;
+  --c-warning-text: #ffdc80;
+  --c-danger: #cc0000;
+  --c-danger-bg: #2d0000;
+  --c-danger-title: #ff2929;
+  --c-danger-text: #ff4040;
+  --c-details-bg: #323843;
+
+  /* button colors in dark mode */
+  --c-btn: #ffffff;
+  --c-btn-bg: #FD366E;
+  --c-btn-border: #FD366E;
+  --c-btn-hover: #ffffff;
+  --c-btn-hover-bg: #ff4d80;
+  --c-btn-hover-border: #ff4d80;
+  --c-btn-active: #ffffff;
+  --c-btn-active-border: #FD366E;
+  --c-btn-active-bg: #FD366E;
+} 

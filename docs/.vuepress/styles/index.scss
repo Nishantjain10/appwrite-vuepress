@@ -1,0 +1,167 @@
+// Theme overrides
+:root {
+  // brand colors
+  --c-brand: #FD366E;
+  --c-brand-light: #ff4d80;
+
+  // background colors
+  --c-bg: #ffffff;
+  --c-bg-light: #EDEDF0;
+  --c-bg-dark: #19191D;
+
+  // text colors
+  --c-text: #19191D;
+  --c-text-light: #3a3a3f;
+  --c-text-lighter: #4e4e54;
+  
+  // border colors
+  --c-border: #EDEDF0;
+  --c-border-dark: #dcdce0;
+}
+
+// Dark theme colors
+html.dark {
+  --c-bg: #19191D;
+  --c-bg-light: #252529;
+  --c-bg-lighter: #313136;
+
+  --c-text: #EDEDF0;
+  --c-text-light: #dcdce0;
+  --c-text-lighter: #bcbcc0;
+
+  --c-border: #3a3a3f;
+  --c-border-dark: #4e4e54;
+}
+
+// Button styles
+.action-button {
+  display: inline-block;
+  color: #ffffff !important;
+  background-color: var(--c-brand) !important;
+  border: 1px solid var(--c-brand) !important;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  transition: background-color 0.1s ease;
+  box-sizing: border-box;
+  
+  &:hover {
+    background-color: var(--c-brand-light) !important;
+    border-color: var(--c-brand-light) !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+  }
+  
+  &.secondary {
+    color: var(--c-brand) !important;
+    background-color: transparent !important;
+    
+    &:hover {
+      color: #ffffff !important;
+      background-color: var(--c-brand) !important;
+    }
+  }
+}
+
+// Homepage hero section
+.home {
+  .hero {
+    .description {
+      color: var(--c-text);
+    }
+  }
+}
+
+// Custom styles
+.navbar {
+  border-bottom-color: var(--c-border);
+  
+  .site-name {
+    color: var(--c-brand) !important;
+  }
+
+  .nav-links .nav-item > a:hover,
+  .nav-links .nav-item > a.active {
+    color: var(--c-brand);
+    border-bottom-color: var(--c-brand);
+  }
+}
+
+.site-name {
+  font-weight: 600;
+}
+
+.theme-container {
+  min-height: 100vh;
+}
+
+// Style adjustments for better visual hierarchy
+.theme-default-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--c-text);
+    font-weight: 600;
+    
+    &::before {
+      color: var(--c-brand);
+      opacity: 0.8;
+    }
+  }
+  
+  a {
+    color: var(--c-brand);
+    &:hover {
+      color: var(--c-brand-light);
+    }
+  }
+
+  code {
+    color: var(--c-brand);
+  }
+}
+
+// Sidebar styling
+.sidebar {
+  .sidebar-links {
+    .sidebar-item.active {
+      border-left-color: var(--c-brand);
+      color: var(--c-brand);
+    }
+  }
+}
+
+// Button styling
+.custom-container {
+  &.tip {
+    border-color: var(--c-brand);
+    .custom-container-title {
+      color: var(--c-brand);
+    }
+  }
+}
+
+// Search box styling
+.search-box {
+  input {
+    border-color: var(--c-border);
+    &:focus {
+      border-color: var(--c-brand);
+    }
+  }
+}
+
+// Homepage features
+.features {
+  border-top: 1px solid var(--c-border);
+  .feature {
+    h2 {
+      color: var(--c-brand);
+    }
+  }
+}
+
+// Back to top button
+.back-to-top {
+  background-color: var(--c-brand) !important;
+  &:hover {
+    background-color: var(--c-brand-light) !important;
+  }
+} 

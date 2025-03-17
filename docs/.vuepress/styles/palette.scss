@@ -1,0 +1,46 @@
+@use "sass:color";
+
+// Brand colors
+$brandColor: #FD366E;
+$brandLightColor: color.adjust($brandColor, $lightness: 10%);
+
+// Background colors
+$bgColor: #ffffff;
+$bgLightColor: #EDEDF0;
+$bgDarkColor: #19191D;
+
+// Text colors
+$textColor: #19191D;
+$textLightColor: #3a3a3f;
+$textLighterColor: #4e4e54;
+
+// Border colors
+$borderColor: #EDEDF0;
+$borderDarkColor: #dcdce0;
+
+// Badge colors
+$badgeTipColor: $brandColor;
+$badgeWarningColor: color.adjust(#ffe564, $lightness: -35%);
+$badgeDangerColor: color.adjust(#ff4d4d, $lightness: -35%);
+
+// Code block colors
+$codeBgColor: #282c34;
+$codeHighlightLineColor: rgba(0, 0, 0, 0.66);
+$codeHighlightLineBgColor: rgba(0, 0, 0, 0.1);
+
+// Layout
+$navbarHeight: 3.6rem;
+$sidebarWidth: 20rem;
+$contentWidth: 740px;
+$homePageWidth: 960px;
+
+// responsive breakpoints
+$MQNarrow: 959px;
+$MQMobile: 719px;
+$MQMobileNarrow: 419px;
+
+// code
+$lineNumbersWrapperWidth: 3.5rem;
+$codeLang: 'c' 'cpp' 'cs' 'css' 'dart' 'docker' 'fs' 'go' 'html' 'java' 'js'
+  'json' 'kt' 'less' 'makefile' 'md' 'php' 'py' 'rb' 'rs' 'sass' 'scss' 'sh'
+  'styl' 'ts' 'toml' 'vue' 'yml'; 
