@@ -79,7 +79,7 @@ html.dark {
   border-bottom-color: var(--c-border);
   
   .site-name {
-    color: var(--c-brand) !important;
+    display: none !important;
   }
 
   .nav-links .nav-item > a:hover,
